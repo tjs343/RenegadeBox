@@ -1,0 +1,265 @@
+.renegadeLogo {
+	margin: 10px;
+}
+
+.height50 {
+	height: 50%;
+}
+
+.height100 {
+	height: 100%;
+}
+
+/* ELEMENTS */
+.whiteBoxLinkLarge {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    font-family: bebasNeueRegular;
+    color: #FFF;
+    font-size: xx-large;
+    padding: 10px 40px 10px 40px;
+    margin: auto;
+}
+
+.whiteBoxLinkMedium {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFF;
+    font-family: bebasNeueRegular;
+    color: #FFF;
+    font-size: x-large;
+    padding: 5px 20px 5px 20px;
+    margin: auto;
+}
+
+.whiteBoxLinkLarge:hover {
+    border-color: yellow;
+    color: yellow;
+    text-decoration: none;
+}
+
+.whiteBoxLinkMedium:hover {
+    border-color: yellow;
+    color: yellow;
+    text-decoration: none;
+}
+
+.redButton {
+    font-family: bebasNeueRegular;
+    color: #FFF;
+    font-size: small;
+    padding: 5px 40px 5px 40px;
+    background-color: #E30513;
+    border: 0;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 00px 0px 0px 40px;
+}
+
+/* POSITIONING/LAYOUT */
+.center {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.centerMiddle {
+	text-align: center;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.imgCenterResize {
+	background-position: center;
+	background-size: cover; 
+}
+
+.legalPadding {
+	padding-right: 50px;
+	padding-bottom: 30px;
+}
+
+.height100Percent {
+	height: 100%;
+}
+
+.noMargin {
+	margin: 0;
+}
+
+.floatLeft {
+	float: left;
+	margin: 0px 10px 0px 10px;
+}
+
+.blackBackground {
+	background-color: #000;
+}
+
+.redBackground {
+	background-color: #FF0019; 
+}
+
+/* SECOND ROW DIVS START */
+#divShopNow {
+	background-image: url('../images/shopnow.jpg'); 
+}
+
+#divInstructorRanges {
+	background-image: url('../images/instructorranges.jpg');  
+}
+/* SECOND ROW DIVS END */
+
+/* THIRD ROW DIVS START */
+#divMens {
+	background-image: url('../images/mens.jpg');  
+}
+
+#divWomens {
+	background-image: url('../images/womens.jpg');  
+}
+
+#divCoachAndAthlete {
+	background-image: url('../images/coachandathlete.jpg');  
+}
+
+#divAccessories {
+	background-image: url('../images/accessories.jpg');  
+}
+/* THIRD ROW DIVS END */
+
+/* FOURTH ROW DIVS START */
+
+/* FOURTH ROW DIVS END */
+
+/* FIFTH ROW DIVS START */
+#divRow5Container {
+	background-image: url('../images/contactus.jpg'); 
+}
+/* FIFTH ROW DIVS END */
+
+/* SIXTH ROW DIVS START */
+#divRow5Cell1 {
+	background-image: url('../images/row5cell1.png');  
+}
+
+#divRow5Cell2 {
+	background-image: url('../images/row5cell2.png');  
+}
+
+#divRow5Cell3 {
+	background-image: url('../images/row5cell3.png');  
+}
+
+#divRow5Cell4 {
+	background-image: url('../images/row5cell4.png');  
+}
+/* SIXTH ROW DIVS END */
+
+/* SEVENTH ROW DIVS START */
+#divRow7Container {
+	background-image: url('../images/instructorranges.jpg'); 
+}
+/* SEVENTH ROW DIVS END */
+
+  .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+      max-width: none;
+    }
+
+/* FONTS */
+@font-face {
+    font-family: bebasNeueRegular;
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+    font-family: bebasNeueBold;
+    src: url('../fonts/BebasNeue Bold.otf');
+}
+
+@font-face {
+    font-family: bebasNeue;
+    src: url('../fonts/BebasNeue.otf');
+}
+
+@font-face {
+    font-family: helveticaNeueLight;
+    src: url('../fonts/HelveticaNeue-Light.ttf');
+}
+
+.title {
+    font-family: bebasNeueBold;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.shoppingTitle {
+	font-family: bebasNeueRegular;
+	font-size: medium;
+	padding: 10px 0px 10px 0px;
+}
+
+.shoppingSubTitle {
+	font-family: bebasNeueRegular;
+	font-size: small;
+	padding: 2px 0px 2px 0px;
+}
+
+.shoppingPrice {
+	font-family: bebasNeueBold;
+	font-size: medium;
+	padding: 5px 0px 5px 0px;
+}
+
+.footerTitle {
+	font-family: bebasNeueRegular;
+	font-size: medium;
+	line-height: 1;
+	margin-top: 50px;
+}
+
+.footText {
+	font-family: helveticaNeueLight;
+	font-size: small;
+	line-height: 1.2;
+}
+
+.normalText{
+	font-family: bebasNeueRegular;
+	font-size: medium;
+	line-height: 1;
+}
+
+.navbarText:hover {
+    color: #FF0019;
+    text-decoration: none;
+}
+
+.black {
+	color: #000;
+}
+
+.white {
+	color: #FFF;
+}
+
+.red {
+	color: #FF0019;
+}
